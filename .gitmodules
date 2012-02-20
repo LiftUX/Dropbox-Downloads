@@ -1,0 +1,3 @@
+[submodule "library/includes/droplib"]
+	path = library/includes/droplib
+	url = git://github.com/Dropbox-PHP/dropbox-php.git

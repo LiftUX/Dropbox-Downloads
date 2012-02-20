@@ -20,7 +20,8 @@ define('DSYNC_ROOT_FOLDER', '365psd');
 
 load_plugin_textdomain( 'dropbox', false, DSYNC_PATH . '/languages' );
 
-require_once(DSYNC_PATH.'/includes/dropbox/DropLib.php');
+require_once(DSYNC_PATH.'/includes/dropblib/src/Dropbox/API.php');
+require_once(DSYNC_PATH.'/includes/dropblib/src/Dropbox/oauth.php');
 require_once(DSYNC_PATH.'/includes/ajax-goodness.php');
 require_once(DSYNC_PATH.'/includes/admin-options.php');
 require_once(DSYNC_PATH.'/includes/buddypress.php');
