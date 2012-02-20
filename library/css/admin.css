@@ -1,0 +1,13 @@
+#dropsync{position:relative;}
+#dropsync #icon-dropbox-sync{background: url("../images/ico_dropbox_sync.png") no-repeat center center; }
+#dropsync label, #dropsync input{display:block; margin:0 0 5px;}
+#dropsync form{display:block;}
+#dropsync input{margin:0 0 15px;}
+#dropsync input[type=text]{width:300px; padding:10px; font-size:16px; color:#555;}
+#dropsync img{margin:10px 0;}
+#dropsync .hide{display:none;}
+#dropsync .response{display:none;}
+#dropsync .response p{display:block;}
+#dropsync .loader{position:absolute; top:14px; left:183px; display:none;}
+#dropsync .description{font: 14px/21px Georgia, "Times New Roman", serif; color: #838383;}
+#dropsync hr{border: none; background: #CCC; height: 2px; padding: 0; margin: 30px 0; display: block;}
